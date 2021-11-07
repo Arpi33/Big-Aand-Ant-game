@@ -1,10 +1,10 @@
 # Big-Aand-Ant-game
 
-<p>Within this assignment, Object Oriented Java programming language was used in the making of the following simulation, and factory design pattern was implemented during the making of this project. We were given the following requirements:
+<p>Within this assignment, Object Oriented Java programming language was used in the making of the following simulation, and factory design pattern was implemented during the making of this project. We were given the following requirements:<br>
 
-There are two creatures – ants and bugs – and they live in a grid world of size 20 x 20 cells. Your task is to simulate a simple 2D simulation of predator (bugs) and prey (ants) behaviours. 
+There are two creatures – ants and bugs – and they live in a grid world of size 20 x 20 cells. Your task is to simulate a simple 2D simulation of predator (bugs) and prey (ants) behaviours. <br>
 	
-The grid world is enclosed so the creatures can’t move out of the grid world and only one creature may occupy a cell at a time. The time is simulated in time steps and the creatures perform some action every time step. 
+The grid world is enclosed so the creatures can’t move out of the grid world and only one creature may occupy a cell at a time. The time is simulated in time steps and the creatures perform some action every time step. <br>
 
 The ants behave according to the following model: 
 	<ul>
@@ -13,13 +13,15 @@ The ants behave according to the following model:
 </ul>
 
 The bugs behave according to the following model: 
-•	Move: It is same as the ant’s move model, except at each time step, if there is an adjacent cell occupied by an ant, the bug will move to that cell and eat the ant. But a bug can’t eat another bug. 
-•	Breed: it is the same as the ant’s model except the time step required is eight. 
-•	Starve: if a bug has not eaten an ant in the last three time step moves, it will die at the end of the third time step and should be removed from the grid. 
+</ul>
+Move: It is same as the ant’s move model, except at each time step, if there is an adjacent cell occupied by an ant, the bug will move to that cell and eat the ant. But a bug can’t eat another bug. 
+<li>Breed: it is the same as the ant’s model except the time step required is eight. </li>
+<li>Starve: if a bug has not eaten an ant in the last three time step moves, it will die at the end of the third time step and should be removed from the grid. </li>
+</ul> <br>
 
 During one turn, all the bugs should move before the ants. 
 
-Write a Graphical User Interface (GUI) program to implement this simulation
+Write a Graphical User Interface (GUI) program to implement this simulation <br>
 
 We were also asked to use images to represent the bugs and ants, and use a superclass of Organism to encapsulate all data variables for Bugs and Ants.
 Moreover, we were also asked to have an overridden method called move that is implemented by the Bug and Ant class.
