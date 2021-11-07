@@ -7,7 +7,6 @@ import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-//GUI done by Neo Zhi Ming/Danial/Arpita/Raflee
 //PART OF OBSERVER DESIGN PATTERN: the GUI is both the Subject and the Client for the Observer pattern
 public class GUI extends JFrame {
 
@@ -53,8 +52,7 @@ public class GUI extends JFrame {
         //initialise components
         initComponents();
     }
-
-    //Made by Neo Zhi Ming
+    
     public void initComponents()
     {
         //setting size of frame
@@ -218,7 +216,6 @@ public class GUI extends JFrame {
 
     }
 
-    //Made by Neo Zhi Ming/Danial
     //ToggleButton function that automates timeskip/reverts timeskip back to manual.
     public void autoManualActionPerformed(ActionEvent e)
     {
@@ -241,8 +238,7 @@ public class GUI extends JFrame {
 
 
     }
-
-    //Made by Neo Zhi Ming/Danial
+    
     //The function for the button to start/restart the simulation and skip to the next time step.
     public void timeSkipButtonActionPerformed(ActionEvent e)
     {
@@ -471,14 +467,14 @@ public class GUI extends JFrame {
         }
     }
 
-    //Made by Arpita
+   
     //PART OF OBSERVER DESIGN PATTERN: attaches an observer to the subject to be observed(this)
     public void attach(Observer observer)
     {
         this.observer.add(observer);
     }
 
-    //Made by Arpita
+    
     //PART OF OBSERVER DESIGN PATTERN: notifies the observer if the ArrayList has been modified.
     public void notifyAllObservers() {
         for(Observer obs : observer)
@@ -487,20 +483,20 @@ public class GUI extends JFrame {
         }
     }
 
-    //Made by Arpita
+ 
     //Returns the labels that comprises the grid of Organisms
     public JLabel[][] getMapLabels()
     {
         return mapLabels;
     }
 
-    //Made by Arpita
+  
     //Returns the Organism ArrayList that has all the data of the organisms.
     public ArrayList<Organism> getOrganismMap() {
         return organismMap;
     }
 
-    //Made by Neo Zhi Ming
+   
     //PART OF SINGLETON DESIGN PATTERN: Gets the instance of one GUI program, if there is no program, create it once,
     //and return it afterwards.
     public static GUI getInstance()
@@ -517,7 +513,7 @@ public class GUI extends JFrame {
     }
 
 
-    //Made by Neo Zhi Ming
+   
     //main function
     public static void main(String[] args)
     {
