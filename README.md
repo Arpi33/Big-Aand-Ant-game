@@ -1,4 +1,4 @@
-# Big-Aand-Ant-game
+# Big-And-Ant-game
 
 <p>Within this assignment, Object Oriented Java programming language was used in the making of the following simulation, and factory design pattern was implemented during the making of this project. We were given the following requirements:<br>
 
