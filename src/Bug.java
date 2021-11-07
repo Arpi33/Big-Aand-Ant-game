@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-//Bug Class made by Neo Zhi Ming/Danial
-//Move made by Neo Zhi Ming/Danial, Breed made by Raflee/Danial, Eat made by Danial/Neo Zhi Ming, Starve made by Arpita.
+
 public class Bug extends Organism {
 
     //a MapHandler to checking the state of the map around this organism
@@ -24,7 +23,6 @@ public class Bug extends Organism {
     }
 
     @Override
-    //Done by Neo Zhi Ming/Danial
     public void move(ArrayList<Organism> organismMap) {
         //Checks for ants, if no ants, run below, if ant present run eat()
         int direction = 0;
@@ -122,7 +120,6 @@ public class Bug extends Organism {
     }
 
     @Override
-    //Done by Danial/Raflee
     public void breed( ArrayList<Organism> organismMap ){
         //Only breed if it has moved eight steps
         if( getBreedSteps()==8 ){
@@ -168,7 +165,7 @@ public class Bug extends Organism {
         starveStep = steps;
     }
 
-    //Done by Danial
+    
     public int eat(ArrayList<Organism> organismMap, ArrayList<Integer> listEat ){
         //Random generator that decides which ant to eat among the directions.
         Random rGen = new Random();
@@ -194,8 +191,6 @@ public class Bug extends Organism {
         //return the direction so that the Bug will move forward to take the ant's place.
         return finalDirection;
     }
-
-    //Made by Arpita
     public void starve(){
         //If the Bug has moved 3 steps without eating, it will be marked for death
         if( getStarveStep() == 3 ){
