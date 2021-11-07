@@ -20,8 +20,7 @@ Move: It is same as the ant’s move model, except at each time step, if there i
 </ul> <br>
 
 During one turn, all the bugs should move before the ants. 
-
-Write a Graphical User Interface (GUI) program to implement this simulation <br>
+<br>
 
 We were also asked to use images to represent the bugs and ants, and use a superclass of Organism to encapsulate all data variables for Bugs and Ants.
 Moreover, we were also asked to have an overridden method called move that is implemented by the Bug and Ant class.
