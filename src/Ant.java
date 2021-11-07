@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-//Ant Class done by Neo Zhi Ming/Danial
-//Move done by Neo Zhi Ming/Danial, Breed done by Raflee/Danial.
+
 public class Ant extends Organism {
 
     //a MapHandler to checking the state of the map around this organism
@@ -21,7 +20,6 @@ public class Ant extends Organism {
     }
 
     @Override
-    //Done by Neo Zhi Ming/Danial
     public void move(ArrayList<Organism> organismMap) {
         //Random generator that randomly selects a direction to go
         Random rGen = new Random();
@@ -96,7 +94,6 @@ public class Ant extends Organism {
     }
 
     @Override
-    //Done by Raflee/Danial
     public void breed( ArrayList<Organism> organismMap ) {
         //Only breed if it has moved three steps
         if( getBreedSteps()==3 ){
