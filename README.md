@@ -7,8 +7,10 @@ There are two creatures – ants and bugs – and they live in a grid world of s
 The grid world is enclosed so the creatures can’t move out of the grid world and only one creature may occupy a cell at a time. The time is simulated in time steps and the creatures perform some action every time step. 
 
 The ants behave according to the following model: 
-•	Move: At every time step it moves to the next cell randomly top, bottom, left , or right direction. If the cell is occupied or out of boundary, then it does not move. 
-•	Breed: A new ant will be created at an adjacent (up, down, left, or right) empty cell if it survives at the end of third time step (i.e. after moving). If no empty cell available no breeding occurs. After that, the ant can’t reproduce until three more time stamp elapsed.
+	<ul>
+<li>Move: At every time step it moves to the next cell randomly top, bottom, left , or right direction. If the cell is occupied or out of boundary, then it does not move. </li>
+<li>Breed: A new ant will be created at an adjacent (up, down, left, or right) empty cell if it survives at the end of third time step (i.e. after moving). If no empty cell available no breeding occurs. After that, the ant can’t reproduce until three more time stamp elapsed. </li>
+</ul>
 
 The bugs behave according to the following model: 
 •	Move: It is same as the ant’s move model, except at each time step, if there is an adjacent cell occupied by an ant, the bug will move to that cell and eat the ant. But a bug can’t eat another bug. 
