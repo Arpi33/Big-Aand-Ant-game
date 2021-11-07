@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-//Made by Neo Zhi Ming, all methods made by Neo Zhi Ming
+
 //PART OF ABSTRACT FACTORY DESIGN PATTERN: An ImageIcon factory that returns the corresponding
 //image based on the organism type
 public class ImageFactory extends AbstractFactory{
