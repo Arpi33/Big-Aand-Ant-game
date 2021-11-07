@@ -1,4 +1,3 @@
-//Made by Neo Zhi Ming, all methods made by Neo Zhi Ming
 //PART OF ABSTRACT FACTORY DESIGN PATTERN: A Factory Producer that instantiates the necessary Factories
 //depending on the need.
 public class FactoryProducer {
