@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-//Made by Danial all methods made by Danial
 //To check the state of the map relative to the coordinates of an object passed
 public class MapHandler {
 
