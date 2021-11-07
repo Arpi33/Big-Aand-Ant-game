@@ -10,7 +10,7 @@ The ants behave according to the following model:
 	<ul>
 <li>Move: At every time step it moves to the next cell randomly top, bottom, left , or right direction. If the cell is occupied or out of boundary, then it does not move. </li>
 <li>Breed: A new ant will be created at an adjacent (up, down, left, or right) empty cell if it survives at the end of third time step (i.e. after moving). If no empty cell available no breeding occurs. After that, the ant can’t reproduce until three more time stamp elapsed. </li>
-</ul>
+</ul> <br>
 
 The bugs behave according to the following model: 
 </ul>
@@ -28,3 +28,5 @@ Moreover, we were also asked to have an overridden method called move that is im
 The Ants and Bugs world will be initialised with 100 ants and 5 bugs, and the user will be prompted to press Enter to go to the next time step.
 	</p>
 <hr>
+
+
