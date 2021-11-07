@@ -1,7 +1,6 @@
 import javax.swing.*;
 import javax.xml.stream.FactoryConfigurationError;
 
-//Made by Arpita, all methods made by Arpita
 //PART OF OBSERVER DESIGN PATTERN: A Label observer that updates the labels in the grid map whenever the organism
 //arraylist changes
 public class GUILabelObserver extends Observer {
