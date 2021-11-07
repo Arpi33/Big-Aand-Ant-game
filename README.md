@@ -1,6 +1,6 @@
 # Big-Aand-Ant-game
 
-Within this assignment, Object Oriented Java programming language was used in the making of the following simulation, and factory design pattern was implemented during the making of this project. We were given the following requirements:
+<p><h4>Within this assignment, Object Oriented Java programming language was used in the making of the following simulation, and factory design pattern was implemented during the making of this project. We were given the following requirements:
 
 There are two creatures – ants and bugs – and they live in a grid world of size 20 x 20 cells. Your task is to simulate a simple 2D simulation of predator (bugs) and prey (ants) behaviours. 
 	
@@ -22,3 +22,4 @@ Write a Graphical User Interface (GUI) program to implement this simulation
 We were also asked to use images to represent the bugs and ants, and use a superclass of Organism to encapsulate all data variables for Bugs and Ants.
 Moreover, we were also asked to have an overridden method called move that is implemented by the Bug and Ant class.
 The Ants and Bugs world will be initialised with 100 ants and 5 bugs, and the user will be prompted to press Enter to go to the next time step.
+	</h4></p>
